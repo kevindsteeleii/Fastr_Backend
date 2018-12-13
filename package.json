@@ -1,0 +1,27 @@
+{
+  "name": "fastr_backend",
+  "version": "1.0.0",
+  "description": "Backend for the fasting app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindsteeleii/Fastr_Backend.git"
+  },
+  "author": "Kevin D. Steele II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindsteeleii/Fastr_Backend/issues"
+  },
+  "homepage": "https://github.com/kevindsteeleii/Fastr_Backend#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.8",
+    "sequelize": "^4.41.2"
+  }
+}
